@@ -75,7 +75,7 @@ class CanvasFrameFix2AndroidTest {
                 scope=CanvasFrameScope.Photos,colorArgb=0xFF8C74DD.toInt(),widthRatio=.013f)
             val original=com.tugongfang.editor.project.LocalProject(id=id,title="Fix2 frame test",
                 images=emptyList(),texts=emptyList(),info=emptyList(),shapes=emptyList(),
-                canvas=CanvasScene(frame=frame))
+                collage=null,canvas=CanvasScene(frame=frame))
             store.save(original)
             assertEquals(frame,store.load(id).canvas.frame)
         } finally { store.delete(id) }
