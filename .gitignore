@@ -1,0 +1,38 @@
+# Android Studio / Gradle generated files
+.gradle/
+**/build/
+build/
+.cxx/
+.externalNativeBuild/
+.captures/
+/captures/
+*.iml
+
+# Local environment / IDE machine state
+local.properties
+**/local.properties
+.idea/
+.DS_Store
+Thumbs.db
+
+# Packaging and local backups
+*.apk
+*.aab
+*.apks
+*.hprof
+*.log
+_icon_backup_*/
+
+# Credentials and private signing files
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+.env
+.env.*
+!/.env.example
+
+# Optional project-local scratch outputs
+/out/
+/tmp/

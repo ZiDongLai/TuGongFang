@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Restrict camera URI grants to the dedicated app-private cache subfolder. -->
+    <cache-path name="camera_captures" path="tgf_camera/" />
+</paths>
