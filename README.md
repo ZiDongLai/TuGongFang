@@ -8,7 +8,7 @@
 ![Kotlin](https://img.shields.io/badge/Language-Kotlin-7F52FF?logo=kotlin&logoColor=white)
 ![Jetpack Compose](https://img.shields.io/badge/UI-Jetpack%20Compose-4285F4)
 ![Version](https://img.shields.io/badge/Stable-v1.0.43-2563EB)
-![Status](https://img.shields.io/badge/Status-Private%20Development-64748B)
+![Rights](https://img.shields.io/badge/Rights-All%20Rights%20Reserved-64748B)
 
 **[功能介绍](#-核心功能) · [运行项目](#-开发环境与本地运行) · [版本记录](#-版本记录) · [注意事项](#-项目状态与使用声明)**
 
@@ -80,7 +80,7 @@
 ## 🚀 开发环境与本地运行
 
 1. 安装 **Android Studio**，以及工程配置所需的 Android SDK、JDK 和 Gradle 组件。
-2. 克隆或下载本仓库源码。私有仓库需要具备访问权限。
+2. 在获得适当授权的情况下，克隆或下载本仓库源码，用于经允许的开发与测试。仓库公开可见不表示获得复制或修改授权。
 3. 在 Android Studio 中选择 **Open**，打开包含 `settings.gradle.kts` 的工程根目录。
 4. 等待 **Gradle Sync** 完成。若 Android Studio 提示安装 SDK 组件，按提示安装。
 5. 连接已开启开发者选项和 USB 调试的 Android 设备，选择 `app` 运行配置并点击 **Run**。
@@ -134,6 +134,7 @@ TuGongFang/
 ├── build.gradle.kts
 ├── settings.gradle.kts
 ├── .gitignore
+├── LICENSE                       # 版权所有、保留全部权利声明（非开源许可）
 └── README.md
 ```
 
@@ -151,13 +152,21 @@ TuGongFang/
 
 > 版本标签是固定时间点的源码快照。后续对 `main` 分支提交 README 或测试文件，不会自动更新已有 `v1.0.43` 标签。
 
-## 🔒 项目状态与使用声明
+## 🔒 版权、许可与使用声明
 
-- **当前是个人开发项目和私有源码仓库**，不代表已公开发布、开放注册或提供商业服务。
-- 仓库中未声明适用于整个项目的开源许可证。**请勿将“能看到源码”理解为获得复制、修改或再分发的授权。**
-- 项目包含的图标、图片、字体及其他素材，可能受各自的权利与许可约束。未经确认，不应将其作为可自由再分发的素材。
-- 使用 Debug 安装包、重新签名或后续公开发布前，应完成必要的兼容性、隐私和合规检查。
-- 未来功能计划不等于当前版本已经实现；请以实际源码、应用界面和对应版本记录为准。
+> **Copyright © 2026 ZiDongLai. All rights reserved.（版权所有，保留全部权利）**
+
+本项目采用 **保留全部权利（All Rights Reserved）** 的专有权利声明，详见根目录的 [`LICENSE`](LICENSE)。此文件**不是 MIT、Apache、GPL 等开源许可证，也不是 OSI 认可的开源许可**。
+
+- GitHub 仓库可能公开供浏览和展示，但**公开可见不等于允许复制、修改、重新发布、二次打包或商业使用**项目原创源码。
+- 如需获得项目原创代码的使用、修改或分发授权，应事先取得相应权利人的单独书面许可。
+- GitHub 平台按照其服务条款提供的查看、Fork 等功能，以及适用法律已授予的权利，不因该声明而被取消。
+- **第三方依赖、字体、图标、图片与其他素材仍遵循各自的许可和版权规定**，本声明不替代它们的许可，也不主张第三方作品的所有权。
+- 本项目的 GitHub 展示、源码归档与 Release 记录**不代表应用已正式在应用商店发布**；公开展示前请核实个人信息、授权素材与签名密钥均未被提交。
+
+### 使用与联系
+
+如需申请代码许可，请通过 GitHub 仓库所有者提供的联系渠道沟通。未取得许可前，请勿将该项目视为可自由使用的开源代码库。
 
 ## 📌 开发维护建议
 
