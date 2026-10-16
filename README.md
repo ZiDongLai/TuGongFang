@@ -10,7 +10,7 @@
 ![Version](https://img.shields.io/badge/Stable-v1.0.43-2563EB)
 ![Rights](https://img.shields.io/badge/Rights-All%20Rights%20Reserved-64748B)
 
-**[功能介绍](#-核心功能) · [运行项目](#-开发环境与本地运行) · [版本记录](#-版本记录) · [注意事项](#-项目状态与使用声明)**
+**[功能介绍](#-核心功能) · [界面展示](#️-软件界面展示) · [运行项目](#️-开发环境与本地运行) · [版本记录](#️-版本记录) · [版权声明](#-版权许可与使用声明)**
 
 </div>
 
@@ -59,11 +59,49 @@
 
 实际字段和版式以所选模板及用户输入为准。支持信息卡片叠加到图片中，或在图片顶部 / 底部展示。v1.0.43 已优化导出时的日期标签与文字可读性。
 
-## 🖼️ 界面截图
+## 🖼️ 软件界面展示
 
-当前仓库未约定固定截图文件地址，因此暂不引用不存在的图片，避免 README 出现失效图像。
+以下为《图工坊》v1.0.43 的软件界面截图。图片位于本仓库 [`screenshots/`](screenshots/) 目录。
 
-后续可以将实际真机截图放入仓库 `screenshots/` 文件夹，并在这里添加：**首页、单图编辑、模板拼图、自由拼图、信息模板、导出示例**。上传前请检查图片是否含私人照片、通知或敏感资料。
+### 首页
+
+| 首页 1 | 首页 2 |
+| :---: | :---: |
+| <img src="screenshots/01_home1.png" alt="首页 1" width="300"> | <img src="screenshots/01_home2.png" alt="首页 2" width="300"> |
+
+### 单图编辑
+
+| 单图编辑 1 | 单图编辑 2 |
+| :---: | :---: |
+| <img src="screenshots/02_single_editor1.png" alt="单图编辑 1" width="300"> | <img src="screenshots/02_single_editor2.png" alt="单图编辑 2" width="300"> |
+
+### 拼图
+
+| 模板拼图 | 自由拼图 |
+| :---: | :---: |
+| <img src="screenshots/03_collage_templates1.png" alt="模板拼图" width="300"> | <img src="screenshots/04_free_collage.png" alt="自由拼图" width="300"> |
+
+### 影视信息模板
+
+| 影视信息模板 1 | 影视信息模板 2 |
+| :---: | :---: |
+| <img src="screenshots/06_info_template1.png" alt="影视信息模板 1" width="300"> | <img src="screenshots/06_info_template2.png" alt="影视信息模板 2" width="300"> |
+
+| 影视信息模板 3 | 影视信息模板 4 |
+| :---: | :---: |
+| <img src="screenshots/06_info_template3.png" alt="影视信息模板 3" width="300"> | <img src="screenshots/06_info_template4.png" alt="影视信息模板 4" width="300"> |
+
+| 影视信息模板 5 |   |
+| :---: | :---: |
+| <img src="screenshots/06_info_template5.png" alt="影视信息模板 5" width="300"> |   |
+
+### 导出
+
+| 导出 1 | 导出 2 |
+| :---: | :---: |
+| <img src="screenshots/07_export1.png" alt="导出 1" width="300"> | <img src="screenshots/07_export2.png" alt="导出 2" width="300"> |
+
+> 截图仅用于展示软件实际界面。图片及示例素材的权利归相应权利人所有；详情见 [LICENSE](LICENSE) 和下方版权声明。
 
 ## 🛠️ 技术栈
 
@@ -134,6 +172,7 @@ TuGongFang/
 ├── build.gradle.kts
 ├── settings.gradle.kts
 ├── .gitignore
+├── screenshots/                  # 软件功能展示截图（13 张 PNG）
 ├── LICENSE                       # 版权所有、保留全部权利声明（非开源许可）
 └── README.md
 ```
